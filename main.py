@@ -39,7 +39,7 @@ seq=(3,4,6,9,12)
 for i in range(5):
   list=seq[i]
   leonardo.down()
-  for x in range(list):
+  for shape in range(list):
     leonardo.forward(50)
     leonardo.left(360/list)
   leonardo.up()
